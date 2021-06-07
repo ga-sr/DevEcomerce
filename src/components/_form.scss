@@ -1,0 +1,68 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .fieldset {
+        padding: 10px;
+        border: none;
+        padding-left: 0px;
+
+        .input,
+        .textarea {
+            display: block;
+            width: 100%;
+            border-radius: 7px;
+            border: none;
+            outline: none;
+            padding: 10px;
+        }
+
+        .label {
+            display: block;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        .input {
+            border-radius: 7px 0px 7px 7px;
+        }
+    }
+
+    .fieldset.one {
+        flex-basis: 50%;
+
+    }
+
+    .fieldset.two {
+        flex-basis: 50%;
+
+    }
+
+    .fieldset.three {
+        flex-basis: 100%;
+
+    }
+
+    button {
+        background-color: $opac-blue;
+        border: none;
+        height: 50px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: $dark-blue;
+        border-top-right-radius: 0;
+        display: flex;
+        align-items: center;
+
+        p {
+            color: $white;
+            margin-left: 20px;
+
+        }
+    }
+}

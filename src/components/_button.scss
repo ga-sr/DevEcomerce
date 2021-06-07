@@ -1,0 +1,117 @@
+.btn {
+    outline: 0;
+    border: none;
+    font-family: "Montserrat", Arial, sans-serif;
+    &.outline {
+        background-color: $medium-blue;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        &.size {
+            height: 40px;
+            border-radius: 50px;
+            border-width: medium;
+            border-style: solid;
+            border-color: white;
+            &.action {
+                background-color: $light-blue;
+            }
+        }
+        &.sizeTransparent {
+            height: 40px;
+            border-radius: 5px;
+            border-width: medium;
+            border-style: solid;
+            border-color: white;
+            background-color: transparent;
+        }
+    }
+    &.rounded {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $dark-blue;
+        color: $light-blue;
+        &.inverse {
+            color: $dark-blue;
+            background-color: $white;
+        }
+        &.inversedot {
+            color: $medium-blue;
+            background-color: $light-blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1em;
+            margin-left: 38%;
+            cursor: pointer;
+            strong {
+                font-size: 2em;
+            }
+        }
+        &.dark {
+            width: auto;
+            height: auto;
+            background-color: $dark-blue;
+            color: $light-blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    }
+    &.white {
+        height: 50px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: $dark-blue;
+        border-top-right-radius: 0;
+        background-color: $white;
+        display: flex;
+        align-items: center;
+    }
+    &.blue {
+        height: 50px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: $dark-blue;
+        border-top-right-radius: 0;
+        background-color: $medium-blue;
+        display: inline-flex;
+        align-items: center;
+    }
+    &.darkblue {
+        height: 50px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: $dark-blue;
+        border-top-right-radius: 0;
+        background-color: $dark-blue;
+        display: flex;
+        align-items: center;
+        color: $white;
+    }
+    &.title {
+        margin-left: 20px;
+        &.blue {
+            color: $white;
+        }
+        &.margin {
+            margin-right: 20px;
+            color: $white;
+            font-family: "Montserrat";
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    &.img {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}

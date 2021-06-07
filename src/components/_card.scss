@@ -1,0 +1,45 @@
+.card {
+    border-radius: 1rem 0px 1rem 1rem;
+    background-color: $white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    position: relative;
+
+    .card-footer {
+        text-align: right;
+    }
+
+    .card-body {
+        flex: 1;
+        padding-top: 1rem;
+        color: $dark-blue;
+        font-weight: 500;
+        font-size: 1.3rem;
+        clear: both;
+
+        &>p {
+            float: left;
+            margin-right: 30%;
+        }
+
+        &>img {
+            display: block;
+            right: -60px;
+            z-index: 0;
+            position: absolute;
+            width: 250px;
+            height: auto;
+            clip: rect(0px, 190px, 300px, 0px);
+            float: right;
+            margin-right: -5px -5px -5px -5px;
+        }
+    }
+
+    .card-header {
+        color: $dark-blue;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+}

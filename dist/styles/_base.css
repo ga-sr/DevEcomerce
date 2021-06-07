@@ -1,0 +1,752 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+:root,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+input,
+textarea {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  outline: 0;
+  border: none;
+}
+.btn.outline {
+  background-color: #4d84c4;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+}
+.btn.outline.size {
+  height: 40px;
+  border-radius: 5px;
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+}
+.btn.outline.sizeTransparent {
+  height: 40px;
+  border-radius: 5px;
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+}
+.btn.rounded {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0f2d52;
+  color: #b2d5ea;
+}
+.btn.rounded.inverse {
+  color: #0f2d52;
+  background-color: #FFF;
+}
+.btn.rounded.inversedot {
+  color: #4d84c4;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+.btn.rounded.inversedot strong {
+  font-size: 2em;
+}
+.btn.white {
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0f2d52;
+  border-top-right-radius: 0;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+}
+.btn.blue {
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0f2d52;
+  border-top-right-radius: 0;
+  background-color: #4d84c4;
+  display: inline-flex;
+  align-items: center;
+}
+.btn.darkblue {
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0f2d52;
+  border-top-right-radius: 0;
+  background-color: #0f2d52;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+.btn.title {
+  margin-left: 20px;
+}
+.btn.title.blue {
+  color: #FFF;
+}
+.btn.title.margin {
+  margin-right: 20px;
+  color: #FFF;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn.img {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.contacts {
+  padding: 40px 23px;
+  background-color: #0f2d52;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+.contacts .phone-list,
+.contacts .social-media {
+  display: flex;
+}
+.contacts .phone-list .inverse,
+.contacts .social-media .inverse {
+  background-color: #FFF;
+  color: #0f2d52;
+}
+.contacts .social-media li {
+  margin-left: 13px;
+}
+.contacts .phone-list {
+  flex-direction: column;
+}
+
+.header {
+  padding: 50px 44px 30px;
+  background-color: #b2d5ea;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.soluctions-products {
+  background-image: linear-gradient(to bottom, rgba(15, 45, 82, 0.6), #0f2d52), url("/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem 5rem 0px 5rem;
+}
+.soluctions-products .text-container {
+  font-weight: 600;
+  height: 100%;
+  vertical-align: 100%;
+  text-align: justify;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 25px;
+  font-size: 0.9rem;
+}
+
+.divider-dark {
+  border-top: 2px solid #FFF;
+  max-width: 80%;
+  border-radius: 100px;
+  margin: 4rem auto;
+}
+
+.build {
+  background-color: grey;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4d84c4;
+  color: #FFF;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding: 12px 25px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  color: #4d84c4;
+  z-index: 1;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.dropdown-content li {
+  color: #4d84c4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding: 12px 25px;
+  font-size: 13px;
+}
+
+.show {
+  display: block;
+}
+
+.card {
+  border-radius: 1rem 0px 1rem 1rem;
+  background-color: #FFF;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  position: relative;
+}
+.card .card-footer {
+  text-align: right;
+}
+.card .card-body {
+  flex: 1;
+  padding-top: 1rem;
+  color: #0f2d52;
+  font-weight: 500;
+  font-size: 1.3rem;
+  clear: both;
+}
+.card .card-body > p {
+  float: left;
+  margin-right: 30%;
+}
+.card .card-body > img {
+  display: block;
+  right: -60px;
+  z-index: 0;
+  position: absolute;
+  width: 250px;
+  height: auto;
+  clip: rect(0px, 190px, 300px, 0px);
+  float: right;
+  margin-right: -5px -5px -5px -5px;
+}
+.card .card-header {
+  color: #0f2d52;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.build {
+  color: white;
+}
+.build .image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.build .image img {
+  width: calc(100% + 50%);
+  transform: scale(1.2);
+  height: 100%;
+  clip-path: inset(0 30% 0 0);
+}
+.build .content {
+  background-color: #4d84c4;
+  position: relative;
+  z-index: 3;
+  padding: 0.1rem 5rem 2rem 5rem;
+}
+.build .content::after {
+  transform: skewY(-10deg);
+  content: " ";
+  position: absolute;
+  top: -25%;
+  bottom: 100px;
+  left: 0px;
+  right: 0;
+  z-index: -1;
+  background-color: #4d84c4;
+}
+.build .content p {
+  font-size: 1.3rem;
+}
+.build .content p strong {
+  text-transform: uppercase;
+}
+.build .content .list-icon {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.build .content .list-icon li {
+  width: 60px;
+  height: 60px;
+}
+.build .content .list-icon li img {
+  width: 100%;
+  height: 100%;
+}
+.build .content .container-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.client {
+  background: #0f2d52;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  color: #FFF;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.5em;
+}
+.client .cardblue {
+  background-color: #4d84c4;
+  color: #FFF;
+  width: 200px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client .cardblue img {
+  margin: 0;
+}
+.client h1 {
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  margin-top: 1.5em;
+}
+.client .cardline {
+  display: flex;
+}
+
+.card-depositions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 5rem 0px 5rem;
+}
+
+.card-rounded {
+  position: relative;
+}
+.card-rounded .card-content {
+  padding: 3rem;
+  background-color: #FFF;
+  width: 500px;
+  height: 310px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card-rounded .avatar-client {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+  z-index: 1;
+  top: -35px;
+  left: 70px;
+  position: absolute;
+}
+.card-rounded .client-desposition {
+  color: #0f2d52;
+  margin-bottom: 1rem;
+  text-align: justify;
+  margin-top: 20px;
+}
+.card-rounded .client-city {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10rem;
+  color: #0f2d52;
+}
+.card-rounded .client-name {
+  font-weight: 600;
+  margin-top: 15px;
+  color: #b2d5ea;
+}
+
+.card-depositions {
+  background-image: linear-gradient(to top, rgba(15, 45, 82, 0.8), #0f2d52), url("/assets/background3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem 5rem 0px 5rem;
+  color: #FFF;
+  flex-direction: column;
+  align-items: center;
+}
+.card-depositions h1 {
+  margin-top: 6rem;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #4d84c4;
+  background-size: 100% 100%;
+  padding: 5rem 5rem 5rem 5rem;
+}
+.info h1 {
+  color: #284975;
+  font-size: 5em;
+}
+.info p {
+  font-size: 1.3rem;
+}
+.info h2 {
+  color: #284975;
+  font-size: 2.5em;
+}
+.info .white-text {
+  color: #FFF;
+  font-size: 1.5em;
+  text-justify: center;
+}
+.info .white-line1 {
+  border: 2px solid white;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  border-radius: 10px;
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+}
+.info .white-line1 h1 {
+  position: absolute;
+  left: -40px;
+  font-weight: 900;
+}
+.info .white-line1 .white-text {
+  position: absolute;
+  bottom: -10px;
+  background-color: #4d84c4;
+  left: -35px;
+  padding: 0px 10px;
+}
+.info .white-line2 {
+  border: 2px solid white;
+  flex-basis: 30%;
+  height: 220px;
+  position: relative;
+  border-radius: 10px;
+}
+.info .white-line2 h1 {
+  position: absolute;
+  right: -40px;
+  font-weight: 900;
+  top: 20px;
+}
+.info .white-line2 .white-text {
+  position: absolute;
+  bottom: 30px;
+  background-color: #4d84c4;
+  right: -50px;
+  width: 150px;
+  padding: 0px 10px;
+}
+.info .box1 {
+  text-align: left;
+  flex-basis: 50%;
+}
+.info .box1 h2,
+.info .box1 h1 {
+  display: inline;
+}
+.info .box1 h1 {
+  font-weight: 900;
+}
+.info .box2 {
+  text-align: right;
+  flex-basis: 50%;
+}
+.info .box2 h1 {
+  font-weight: 900;
+}
+
+.learn-more {
+  background-image: linear-gradient(to top, rgba(40, 73, 117, 0.6), #284975), url("/assets/background4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem 5rem 5rem 5rem;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.learn-more .content {
+  text-align: right;
+}
+.learn-more .content .btn {
+  display: inline;
+}
+.learn-more h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.learn-more .notbold {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.learn-more strong {
+  text-transform: uppercase;
+}
+.learn-more .text-content {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  text-align: justify;
+}
+.learn-more button {
+  display: inline;
+}
+
+.form-help-client {
+  background-color: #0f2d52;
+  color: #FFF;
+  padding: 3rem 2rem;
+}
+.form-help-client h1 {
+  margin-bottom: 1rem;
+}
+.form-help-client p {
+  color: #577096;
+  font-size: 12px;
+}
+.form-help-client.bg {
+  background-image: linear-gradient(to top, rgba(40, 73, 117, 0.8), #284975), url("/assets/background3.png");
+  background-size: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form .fieldset {
+  padding: 10px;
+  border: none;
+  padding-left: 0px;
+}
+.form .fieldset .input,
+.form .fieldset .textarea {
+  display: block;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+}
+.form .fieldset .label {
+  display: block;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.form .fieldset .input {
+  border-radius: 7px 0px 7px 7px;
+}
+.form .fieldset .input.common {
+  border-radius: 7px;
+}
+.form .fieldset.one {
+  flex-basis: 50%;
+}
+.form .fieldset.two {
+  flex-basis: 50%;
+}
+.form .fieldset.three {
+  flex-basis: 100%;
+}
+.form .fieldset.four {
+  flex-basis: 100%;
+}
+.form .fieldset.five {
+  flex-basis: 100%;
+}
+.form .fieldset.six {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 70%;
+  padding: 1rem;
+}
+.form .label-text {
+  color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: italic;
+}
+.form .checkbox-label {
+  display: flex;
+}
+.form .blue-text {
+  color: #4d84c4;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.form button {
+  background-color: #284975;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0f2d52;
+  border-top-right-radius: 0;
+  display: flex;
+  align-items: center;
+}
+.form button p {
+  color: #FFF;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #FFF;
+  padding: 5rem;
+  font-weight: 500;
+}
+footer .inverse {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+footer .inverse .btn {
+  display: flex;
+}
+footer .inverse a {
+  background-color: #0f2d52;
+}
+footer .number {
+  list-style: none;
+}
+footer .number li {
+  color: #0f2d52;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+footer .number .dark {
+  background-color: #0f2d52;
+  color: #FFF;
+}
+footer .links-site {
+  display: flex;
+  flex-direction: column;
+  color: #0f2d52;
+}
+footer .links-site .title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  width: 160px;
+}
+footer .links-site .content {
+  margin-bottom: 20px;
+}
+footer .links-site a:link {
+  color: #0f2d52;
+}
+footer .links-site a:visited {
+  color: #0f2d52;
+}
+
+.copyright {
+  background-color: #0f2d52;
+  width: 100%;
+  height: 60px;
+  color: #FFF;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-left: 25%;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.build-client {
+  background-color: #0f2d52;
+  color: #FFF;
+  padding: 5rem;
+}
+.build-client .text.container {
+  width: 450px;
+  margin: 30px;
+}
+.build-client .text.container.title {
+  width: 200px;
+  font-size: 1.5rem;
+}
+.build-client .text.topic {
+  color: #4d84c4;
+  text-transform: uppercase;
+  width: 450px;
+  margin: 30px;
+}
+.build-client .texttitle {
+  width: 20px;
+}

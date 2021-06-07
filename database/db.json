@@ -1,0 +1,90 @@
+{
+    "products": [{
+            "index": 1,
+            "name": "Cerveja HEINEKEN",
+            "description": "Cerveja HEINEKEN Lata 250ml",
+            "category": 1,
+            "categoryLabel": "Bebidas",
+            "price": 3.49,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+        },
+        {
+            "index": 2,
+            "name": "Pão de Queijo",
+            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
+
+            "category": 2,
+            "categoryLabel": "Padaria",
+            "price": 17.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+        },
+        {
+            "index": 3,
+            "name": "Cerveja HEINEKEN",
+            "description": "Cerveja HEINEKEN Lata 250ml",
+            "category": 1,
+            "categoryLabel": "Bebidas",
+            "price": 3.49,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+        },
+        {
+            "index": 4,
+            "name": "Pão de Queijo",
+            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
+
+            "category": 2,
+            "categoryLabel": "Padaria",
+            "price": 17.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+        },
+        {
+            "index": 5,
+            "name": "Omo tira manchas",
+            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
+
+            "category": 29,
+            "categoryLabel": "Limpeza",
+            "price": 2.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+        },
+        {
+            "index": 6,
+            "name": "Cerveja HEINEKEN",
+            "description": "Cerveja HEINEKEN Lata 250ml",
+            "category": 1,
+            "categoryLabel": "Bebidas",
+            "price": 3.49,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+        },
+        {
+            "index": 7,
+            "name": "Pão de Queijo",
+            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
+
+            "category": 2,
+            "categoryLabel": "Padaria",
+            "price": 17.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+        },
+        {
+            "index": 8,
+            "name": "Omo tira manchas",
+            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
+
+            "category": 29,
+            "categoryLabel": "Limpeza",
+            "price": 2.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+        },
+        {
+            "index": 9,
+            "name": "Omo tira manchas",
+            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
+
+            "category": 29,
+            "categoryLabel": "Limpeza",
+            "price": 2.99,
+            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+        }
+    ]
+}
