@@ -1,0 +1,36 @@
+.contacts {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1%;
+    background-color: $dark-blue;
+    display: flex;
+    align-items: center;
+    color: $white;
+    .phone-list,
+    .social-media {
+        display: flex;
+        & .inverse {
+            background-color: $white;
+            color: $dark-blue;
+        }
+    }
+    .social-media {
+        li {
+            margin-left: 13px;
+        }
+    }
+    .phone-list {
+        flex-direction: column;
+    }
+    .category-bar {
+        display: flex;
+        h1 {
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        button {
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+    }
+}

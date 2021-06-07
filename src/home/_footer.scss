@@ -1,0 +1,53 @@
+footer {
+    background-color: $white;
+    padding: 5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 500;
+    .inverse {
+        display: flex;
+        align-items: center;
+        color: $white;
+        .btn {
+            display: flex;
+        }
+        a {
+            background-color: $dark-blue;
+        }
+    }
+    .number {
+        list-style: none;
+        li {
+            color: $dark-blue;
+            width: 180px;
+            height: 30px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .dark {
+            background-color: $dark-blue;
+            color: $white;
+        }
+    }
+    .links-site {
+        display: flex;
+        flex-direction: column;
+        color: $dark-blue;
+        .title {
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            width: 160px;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        a:link {
+            color: $dark-blue;
+        }
+        a:visited {
+            color: $dark-blue;
+        }
+    }
+}

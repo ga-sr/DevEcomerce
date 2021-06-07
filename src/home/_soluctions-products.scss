@@ -1,0 +1,19 @@
+.soluctions-products {
+    background-image: linear-gradient(to bottom, rgba($dark-blue, 0.6), $dark-blue), url('/assets/background.png');
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5rem 5rem 0px 5rem;
+
+    .text-container {
+        font-weight: 600;
+        height: 100%;
+        vertical-align: 100%;
+        text-align: justify;
+        vertical-align: middle;
+        margin-bottom: 20px;
+        color: white;
+        line-height: 25px;
+        font-size: 0.9rem;
+    }
+}
