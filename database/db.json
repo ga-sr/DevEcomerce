@@ -1,90 +1,184 @@
 {
-    "products": [{
+    "products": [
+        {
             "index": 1,
-            "name": "Cerveja HEINEKEN",
-            "description": "Cerveja HEINEKEN Lata 250ml",
+            "name": "Fio Dental Johnson's Reach Essencial Menta 100m",
+            "description": "Reach essencial menta remove a placa bacteriana e deixa agradável sabor de menta. Possui agradável sabor de menta.",
             "category": 1,
-            "categoryLabel": "Bebidas",
-            "price": 3.49,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+            "categoryLabel": "Higiene",
+            "price": 11.79,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/261857-1000-1000/7891010501105.jpg?v=637173092786130000"
         },
         {
             "index": 2,
-            "name": "Pão de Queijo",
-            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
-
-            "category": 2,
-            "categoryLabel": "Padaria",
-            "price": 17.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+            "name": "Lâmina de Barbear Gillette Mach3 Sensitive Barcelona 3un",
+            "description": "Os refis de cartucho masculino Gillette MACH3 Sensitive possuem 3 lâminas mais resistentes que o aço e se mantêm afiadas por mais tempo (vs. Prestobarba3). Com lâminas mais afiadas (primeiras 2 lâminas vs. Prestobarba3), estes refis de cartuchos Gillette são projetados para 15 usos confortáveis.",
+            "category": 1,
+            "categoryLabel": "Higiene",
+            "price": 27.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/239989-1000-1000/7500435114479.jpg?v=636669145284230000"
         },
         {
             "index": 3,
-            "name": "Cerveja HEINEKEN",
-            "description": "Cerveja HEINEKEN Lata 250ml",
+            "name": "Creme Dental Colgate Total 12 Clean Mint 90g",
+            "description": "Cuida da saúde de toda a boca, combatendo bactérias nos dentes, língua, bochechas e gengiva.",
             "category": 1,
-            "categoryLabel": "Bebidas",
-            "price": 3.49,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+            "categoryLabel": "Higiene",
+            "price": 6.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/268661-1000-1000/7793100111143.jpg?v=637246251515470000"
         },
         {
             "index": 4,
-            "name": "Pão de Queijo",
-            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
-
-            "category": 2,
-            "categoryLabel": "Padaria",
-            "price": 17.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+            "name": "Kit Sabonete Dove Original 90g Leve Mais Pague Menos",
+            "description": "Com 1/4 de creme hidratante e agentes de limpeza suaves, Dove ajuda a proteger a hidratação natural da pele Dove não resseca a pele como sabonetes comuns.",
+            "category": 1,
+            "categoryLabel": "Higiene",
+            "price": 15.98,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/287163-1000-1000/7891150044616_0.jpg?v=637503672285130000"
         },
         {
             "index": 5,
-            "name": "Omo tira manchas",
-            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
-
-            "category": 29,
-            "categoryLabel": "Limpeza",
-            "price": 2.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+            "name": "Limão Siciliano Kg",
+            "description": "Peso aprox. 200g/un",
+            "category": 2,
+            "categoryLabel": "Hortifruti",
+            "price": 8.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/246426-1000-1000/0000000043717.jpg?v=636809171855430000"
         },
         {
             "index": 6,
-            "name": "Cerveja HEINEKEN",
-            "description": "Cerveja HEINEKEN Lata 250ml",
-            "category": 1,
-            "categoryLabel": "Bebidas",
-            "price": 3.49,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/393/12393393.jpg"
+            "name": "Pera Importada Kg",
+            "description": "Peso aprox. 300g/un",
+            "category": 2,
+            "categoryLabel": "Hortifruti",
+            "price": 7.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/246575-1000-1000/0000000003971.jpg?v=636815991211070000"
         },
         {
             "index": 7,
-            "name": "Pão de Queijo",
-            "description": "Pão de Queijo Tradicional Recheado CATUPIRY Caixa 390g",
-
+            "name": "Mamão Formosa Kg",
+            "description": "Peso aprox. 1.5kg/un",
             "category": 2,
-            "categoryLabel": "Padaria",
-            "price": 17.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/83/598083.png"
+            "categoryLabel": "Hortifruti",
+            "price": 3.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/246404-1000-1000/0000000001113.jpg?v=636807571108800000"
         },
         {
             "index": 8,
-            "name": "Omo tira manchas",
-            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
-
-            "category": 29,
-            "categoryLabel": "Limpeza",
-            "price": 2.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+            "name": "Maracujá Azedo Kg",
+            "description": "Peso aprox. 350g/un",
+            "category": 2,
+            "categoryLabel": "Hortifruti",
+            "price": 8.49,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/246439-1000-1000/0000000001199.jpg?v=636809263701070000"
         },
         {
             "index": 9,
-            "name": "Omo tira manchas",
-            "description": "Refil Tira Manchas Líquido Omo Roupas Brancas e Coloridas 450ML",
-
-            "category": 29,
-            "categoryLabel": "Limpeza",
-            "price": 2.99,
-            "url": "https://static.clubeextra.com.br/img/uploads/1/125/568125.jpg"
+            "name": "Ração Seca Purina Dog Chow para Cães Adultos Raças Médias e Grandes 10,1kg",
+            "description": "PURINA DOG CHOW proporciona uma boa digestão ao seu cão, com nutrientes e ingredientes de alta qualidade.",
+            "category": 3,
+            "categoryLabel": "Pets",
+            "price": 97.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/273153-1000-1000/7896015606565.jpg?v=637312769780000000"
+        },
+        {
+            "index": 10,
+            "name": "Areia Higiênica Pipicat Classic 4Kg",
+            "description": "Inibi o odor.",
+            "category": 3,
+            "categoryLabel": "Pets",
+            "price": 11.97,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/218246-1000-1000/Areia-Higienica-Pipicat-Classic-4Kg-73468.jpg?v=636102235729630000"
+        },
+        {
+            "index": 11,
+            "name": "Ração Pedigree Pro Vital Filhotes Raças Médias e Grandes 1kg",
+            "description": "Excelente para seu pet",
+            "category": 3,
+            "categoryLabel": "Pets",
+            "price": 17.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/222516-1000-1000/Racao-Pedigree-Vital-Pro-Filhotes-Racas-Medias-e-Grandes-1kg-34523.jpg?v=636184283540000000"
+        },
+        {
+            "index": 12,
+            "name": "Ração Seca Alpo para Cães Receitas Caseiras Carne Grelhada com Vegetais 10,1kg",
+            "description": "Uma opção deliciosa para variar o cardápio do seu melhor amigo. Feito a partir de ingredientes selecionados, tem o sabor das receitas caseiras e garante os nutrientes que seu cão precisa para se manter forte e saudável.",
+            "category": 3,
+            "categoryLabel": "Pets",
+            "price": 77.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/249795-1000-1000/55769e7a7d29cbad06661b988276b869_racao-alpo-para-caes-adultos-carne-e-vegetais-101kg_lett_1.jpg?v=636922526729070000"
+        },
+        {
+            "index": 13,
+            "name": "Cerveja Skol Lata 350ml com 18 Unidades",
+            "description": "Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.",
+            "category": 4,
+            "categoryLabel": "Bebidas",
+            "price": 44.82,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/246355-1000-1000/7891149107773.jpg?v=636806678259970000"
+        },
+        {
+            "index": 14,
+            "name": "Cerveja Budweiser 350ml",
+            "description": "O processo de produção da Budweiser é diferenciado, por utilizar lascas de Beechwood (madeira especial) durante os processos de fermentação e maturação. O resultado é um cerveja de sabor único e com equilíbrio perfeito: marcante no início e suave no final.",
+            "category": 4,
+            "categoryLabel": "Bebidas",
+            "price": 3.69,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/281928-1000-1000/7891991010481_1.jpg?v=637420967873470000"
+        },
+        {
+            "index": 15,
+            "name": "Vodka Smirnoff Ice Original 275ml",
+            "description": "Smirnoff Ice possui leve toque de limão e é a marca pioneira no segmento de bebidas ice, trazendo toda a qualidade da marca Smirnoff. Ideal para ser consumida gelada.",
+            "category": 4,
+            "categoryLabel": "Bebidas",
+            "price": 5.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/269729-1000-1000/7893218003603.jpg?v=637261128749570000"
+        },
+        {
+            "index": 16,
+            "name": "Refrigerante Pepsi 350ml",
+            "description": "Originalmente, a fórmula da Pepsi foi criada para fins medicinais. Mas seu sabor agradou tanto que o xarope começou a ser consumido simplesmente por prazer. Cinco anos mais tarde, a fórmula transformou-se em bebida e começou a ser comercializada. Hoje, a Pepsi é um refrigerante de cola com aroma natural, muito apreciado pelo sabor suave e pela refrescância.",
+            "category": 4,
+            "categoryLabel": "Bebidas",
+            "price": 2.49,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/269348-1000-1000/7892840800079.jpg?v=637254270990200000"
+        },
+        {
+            "index": 17,
+            "name": "Açaí Frooty Original 1,5L",
+            "description": "Ingredientes: Polpa de açaí, água, açúcar, glucose de milho, extrato de guaraná, estabilizante carboximetilcelulose sódica, corantes azul brilhante FCF e Bordeaux S, aromatizante, emulsificante mono e diglicerídeos de ácidos graxos e acidulante ácido cítrico.",
+            "category": 5,
+            "categoryLabel": "Congelados",
+            "price": 37.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/258535-1000-1000/7896594972310.jpg?v=637118422704430000"
+        },
+        {
+            "index": 18,
+            "name": "Waffle Forno de Minas Tradicional 210g",
+            "description": "Contem Glútem",
+            "category": 5,
+            "categoryLabel": "Congelados",
+            "price": 5.99,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/277944-1000-1000/7896074603673.jpg?v=637384661821670000"
+        },
+        {
+            "index": 19,
+            "name": "Lasanha Seara Bolognese Gourmet 800g",
+            "description": "A Lasanha Bolognese foi feita para surpreender os paladares mais exigentes: é a mais alta do mercado, com seis camadas de recheio. Sua receita foi criada exclusivamente para ir do freezer direto para o forno. É montada manualmente, camada a camada, e seu recheio é feito com pura carne bovina moída, refogada com bacon, cebola, alho, salsinha, manjericão, pimenta-preta e polpa de tomate. O toque final? Uma deliciosa cobertura de muçarela e parmesão para dar aquele gratinado. É como se fosse feita em casa!",
+            "category": 5,
+            "categoryLabel": "Congelados",
+            "price": 24.49,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/269843-1000-1000/7894904091102.jpg?v=637262861962330000"
+        },
+        {
+            "index": 20,
+            "name": "Torta de Frango Sadia Massa de Iogurte com Palmito, Milho e Requeijão 500g",
+            "description": "PRODUTO CONGELADO 1. Abra a caixa pelo picote, retire a Torta Sadia e remova o filme plástico. 2. Leve a Torta Sadia na embalagem de alumínio ao forno convencional em fogo médio (180ºC), sem necessitar de pré-aquecimento do forno, por 45 minutos ou até estar com a borda totalmente dourada. PRODUTO DESCONGELADO 1. Para descongelar, retire a Torta Sadia do freezer e mantenha na parte baixa da geladeira por cerca de 10 horas. 2. Leve a Torta Sadia na embalagem de alumínio, sem o filme plástico, para o forno convencional em fogo médio (180ºC), por 30 minutos ou até estar com a superfície dourada por igual.",
+            "category": 5,
+            "categoryLabel": "Congelados",
+            "price": 17.98,
+            "url": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/269321-1000-1000/7893000012547.jpg?v=637254186574500000"
         }
     ]
 }
