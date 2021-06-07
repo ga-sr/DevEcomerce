@@ -65,19 +65,19 @@
                 <h1>Dados para entrega</h1>
                 <form class="form form-help" method="GET" action="final.html">
                     <fieldset class="fieldset one">
-                        <label  class="label" for="name">Nome Completo</label>
+                        <label class="label" for="name">Nome Completo</label>
                         <input name="name" placeholder="Nome" type='text' id="name" class="input">
                     </fieldset>
                     <fieldset class="fieldset one">
-                        <label class="label" for="cpf">CPF</label>
-                        <input name="cpf" placeholder="CPF" type='number' id="cpf" class="input">
+                        <label class="label" for="cpf">CPF no formato: xxx.xxx.xxx-xx</label>
+                        <input name="cpf" placeholder="CPF" type='text' id="cpf" class="input" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
                     </fieldset>
                     <fieldset class="fieldset one">
                         <label class="label" for="cep">CEP</label>
-                        <input name="cep" placeholder="CEP" type='number' id="cep" class="input">
+                        <input name="cep" placeholder="CEP" type='text' id="cep" class="input" pattern="\d{5}-?\d{3}">
                     </fieldset>
                     <fieldset class="fieldset two">
-                        <label  class="label" for="endereco">Endereço</label>
+                        <label class="label" for="endereco">Endereço</label>
                         <input name="address" placeholder="Endereço" type="text" id="endereco" class="input">
                     </fieldset>
                     <button id="finalizar" type="submit">
